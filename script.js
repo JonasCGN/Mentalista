@@ -41,6 +41,7 @@ function Chutar() {
     result.innerHTML = "Insira um Número";
     dicas.innerHTML = "";
   }
+  document.getElementById("valor").value = "";
 }
 
 function numeroAleatorio() {
